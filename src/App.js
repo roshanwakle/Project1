@@ -75,28 +75,86 @@
 // export default App;
 
 // ==============================================================
-import React from "react";
-import Employee from "./Employee";
-
-// import User1 from "./User1"
-
-
-function App() {
-  return (
+// import React from "react";
+// import Employee from "./Employee";
+// function App() {
+//   return (
     
-    <>
-    {/* <div>
-    <h3>Props</h3>
-   <User1 PropertyName="Abc" userRole="Devloper1" Value="123654"/>
-    </div> */}
-  
-
-  <h2>Employee Data</h2>
-  <Employee  />
+//     <>
+//     {/* <div>
+//     <h3>Props</h3>
+//    <User1 PropertyName="Abc" userRole="Devloper1" Value="123654"/>
+//     </div> */}
+//   <h2>Employee Data</h2>
+//   <Employee  />
     
-  </>
+//   </>
+//   );
+// }
+// export default App;
+
+// ======================================================================
+// import react from 'react';
+// import Display5a from "./Display5a";
+// function App(){
+//   return(
+// <>
+// <h2>Display5a</h2>
+// <Display5a  />
+// </>
+//   );
+// }
+// export default App;
+
+// ======================================================================
+// import React from 'react';
+// import Form from "./Form";
+// function App(){
+//   return(
+// <>
+// <h2>Form</h2>
+// <Form/>
+// </>
+//   );
+// }
+// export default App;
+
+
+//==============================================================================
+// import React from 'react';
+// import Display5a from "./Display5a";
+// function App(){
+//   return(
+// <>
+// <h2>Client Data</h2>
+// <Display5a/>
+// </>
+//   );
+// }
+// export default App;
+
+//===================================================
+// import React from 'react';
+// import Employee from "./Employee";
+// function App(){
+//   return(
+// <>
+// <h2>Client Data</h2>
+// <Employee/>
+// </>
+//   );
+// }
+// export default App;
+//=====================================================================
+import React from 'react';
+import Form2 from "./Form2";
+function App(){
+  return(
+<>
+<h2>Form1</h2>
+{/* <Form1/> */}
+<Form2/>
+</>
   );
 }
-
 export default App;
-

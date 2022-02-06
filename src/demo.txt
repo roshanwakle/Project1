@@ -1,0 +1,34 @@
+import React,{useState} from 'react';
+
+function Loan(){
+    const [rateOfIntrest ,setRateOfIntrest]=useState("");
+    const [ amount ,setAmount]=useState("");
+    const [ year ,setYear]=useState("");
+
+    const onSubmit=()=>{
+        console.log(rateOfIntrest,amount,year)
+    }
+
+
+  return(
+       <>
+           <h1>Employee</h1>
+           <div className='form-group'>
+               <label>setEmployeeId</label>
+               <input type="text" className='form-control ' onChange={(e)=>setRateOfIntrest(e.target.value)}>Rate of Intrest</input>
+           </div>
+           <div className='form-group'>
+               <label>setEmployeeId</label>
+               <input type="text" className='form-control mr-3 ' onChange={(e)=>setAmount(e.target.value)}>Amount</input>
+           </div>
+           <div className='form-group'>
+               <label>setEmployeeId</label>
+               <input type="text" className='form-control mr-3 ' onChange={(e)=>setYear(e.target.value)}>Y</input>
+           </div>
+           <div className='form-group'>
+               <button className='btn btn-success mr-3' onClick={onSubmit}>Submit</button>
+           </div>
+       </>
+  );
+}
+export default Laon;

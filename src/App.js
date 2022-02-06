@@ -146,14 +146,55 @@
 // }
 // export default App;
 //=====================================================================
+// import React from 'react';
+// import Form2 from "./Form2";
+// function App(){
+//   return(
+// <>
+// <h2>Form1</h2>
+// {/* <Form1/> */}
+// <Form2/>
+// </>
+//   );
+// }
+// export default App;
+//==========================================Functional Component===================================
+
+// import React from 'react';
+// import FunctionalCom from "./FunctionalCom";
+// // import LoanCal from './LoanCal';
+// function App(){
+//   return(
+// <>
+// {/* <h2>FunctionalCom</h2> */}
+// {/* <Form1/> */}
+// <FunctionalCom/>
+// {/* <LoanCal/> */}
+// </>
+//   );
+// }
+// export default App;
+
+// ===================================================================
+// import React from 'react';
+// import LoanCal from './LoanCal';
+// function App(){
+//   return(
+// <>
+// <LoanCal/>
+// </>
+//   );
+// }
+// export default App;
+
+
+// =======================================================================
 import React from 'react';
-import Form2 from "./Form2";
+import Emp from './Emp';
 function App(){
   return(
 <>
-<h2>Form1</h2>
-{/* <Form1/> */}
-<Form2/>
+<Emp/>
 </>
   );
 }

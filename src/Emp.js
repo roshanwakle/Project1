@@ -56,6 +56,7 @@ function Emp() {
           })}
         </tbody>
       </table>
+      
     </>
   );
 }

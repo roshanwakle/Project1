@@ -189,12 +189,37 @@
 
 
 // =======================================================================
+// import React from 'react';
+// import Emp from './Emp';
+// function App(){
+//   return(
+// <>
+// <Emp/>
+// </>
+//   );
+// }
+// export default App;
+
+// =======================================================================
+// import React from 'react';
+// // import CssDemo from './CssDemo';
+// import CssDemo1 from './CssDemo1';
+// function App(){
+//   return(
+// <>
+// {/* <CssDemo/> */}
+// <CssDemo1/>
+// </>
+//   );
+// }
+// export default App;
+//==================================================================
 import React from 'react';
-import Emp from './Emp';
+import CRUD1 from './CRUD1';
 function App(){
   return(
 <>
-<Emp/>
+<CRUD1/>
 </>
   );
 }

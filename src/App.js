@@ -214,12 +214,36 @@
 // }
 // export default App;
 //==================================================================
+// import React from 'react';
+// import CRUD1 from './CRUD1';
+// function App(){
+//   return(
+// <>
+// <CRUD1/>
+// </>
+//   );
+// }
+// export default App;
+//==================================================================
+// import React from 'react';
+// import Json1 from './Json1';
+// function App(){
+//   return(
+// <>
+// <h1>Json</h1>
+// <Json1/>
+// </>
+//   );
+// }
+// export default App;
+
 import React from 'react';
-import CRUD1 from './CRUD1';
+import Employee1 from './Employee1';
 function App(){
   return(
 <>
-<CRUD1/>
+<h6>FunctionalCom</h6>
+<Employee1/>
 </>
   );
 }

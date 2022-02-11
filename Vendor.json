@@ -1,0 +1,28 @@
+{
+  "Vendor": [
+    {
+      "id": 1,
+      "VendorName": "Megha",
+      "ContactNumber": "14258749",
+      "type": true
+    },
+    {
+      "id": "2",
+      "VendorName": "Kalpit",
+      "ContactNumber": "14258749",
+      "type": true
+    },
+    {
+      "id": "3",
+      "VendorName": "Prajakta",
+      "ContactNumber": "142587499",
+      "type": true
+    },
+    {
+      "id": "4",
+      "VendorName": "Ankit",
+      "ContactNumber": "1458795875",
+      "type": true
+    }
+  ]
+}

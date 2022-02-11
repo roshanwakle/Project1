@@ -1,19 +1,28 @@
 {
-  "posts": [
+  "Employee": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "id": "1",
+      "employeeName": "Rahul Sharma",
+      "address": "H.N.o987",
+      "city": "New Delhi"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": "2",
+      "employeeName": "Karan Kumar",
+      "address": "H.No. 12345",
+      "city": "New Delhi"
+    },
+    {
+      "id": "3",
+      "employeeName": "Ragani Singh",
+      "address": "H.No9999",
+      "city": "New Delhi"
+    },
+    {
+      "id": "4",
+      "employeeName": "Test",
+      "address": "",
+      "city": ""
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

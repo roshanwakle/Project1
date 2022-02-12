@@ -1,10 +1,9 @@
 import React from 'react';
-import RoutingDemo from './RoutingDemo';
+import RoutingDemo2 from './RoutingDemo2';
 function App(){
   return(
 <>
-<>Heading</>
-<RoutingDemo/>
+<RoutingDemo2 />
 </>
   );
 }

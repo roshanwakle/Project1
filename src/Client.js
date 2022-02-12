@@ -1,53 +1,43 @@
-import React, { Component } from 'react';
-// import './index.css';
-// import './ClassExercise.css';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+function Client() {
+  const CData = [
+    { Clientid: 1, Clientname: "Prakash" },
+    { Clientid: 2, Clientname: "Raju" },
+    { Clientid: 3, Clientname: "Pallavi" },
+    { Clientid: 4, Clientname: "Ravi" },
+    { Clientid: 5, Clientname: "Sahil" },
+  ];
+  const [ ClientData, setClientData ] = useState(CData);
+  return (
+    <>
+      <div className="col-md-6">
+        <h5>Client Data</h5>
 
-class Client extends Component {
-    constructor(){
-        super();
-        this.state = {
-            clients: [
-                {id: 101, name: 'A1 Pvt. Ltd.', address: 'Mumbai', status: 'active'},
-                {id: 102, name: 'A2 Pvt. Ltd.', address: 'Ahmedabad', status: 'disabled'},
-                {id: 103, name: 'A3 Pvt. Ltd.', address: 'Pune', status: 'active'},
-                {id: 104, name: 'A4 Pvt. Ltd.', address: 'Mehsana', status: 'disabled'},
-                {id: 105, name: 'A5 Pvt. Ltd.', address: 'Bangalore', status: 'active'},
-            ],
-            clientStatus: undefined
-        }
-    }
+        <table className="table table-dark">
+          <tbody>
+            {ClientData.map((item, idx) => {
+              return (
+                <tr key={idx}>
+                  <td>{item.Clientid}</td>
+                  <td>{item.Clientname}</td>
 
-    handleSelect(status){
-        this.setState({
-            clientStatus: status,
-        })
-    }
-
-    render() {
-        return (
-            <div>
-                <h1>Current Active Client: {this.state.clientStatus} </h1>
-                <table className='table table-striped' border="1" cellSpacing="0">
-                    <tbody>
-                        <tr>
-                            <th>ID</th>
-                            <th>Name</th>
-                            <th>Address</th>
-                            <th>Select</th>
-                        </tr>
-                        {this.state.clients.map((client, idx) => (
-                            <tr key={idx}>
-                                <td>{client.id}</td>
-                                <td>{client.name}</td>
-                                <td>{client.address}</td>
-                                <td><button className='btn btn-danger' onClick={() => this.handleSelect(client.status)}>Select</button></td>
-                            </tr>
-                        ))}
-                    </tbody>
-                </table>
-            </div>
-        );
-    }
+                  <td>
+                    <Link
+                      className="btn btn-primary"
+                      to={`/client/${item.Clientid}/${item.Clientname}`}
+                    >
+                      {item.Clientname}
+                    </Link>
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </>
+  );
 }
 
 export default Client;

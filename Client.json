@@ -1,0 +1,28 @@
+{
+    "Client": [
+        {
+            "id": 1,
+            "Name": "ABC Apartment 1",
+            "phoneNo": "78957897",
+            "area": "Plot no 1"
+        },
+        {
+            "id": 2,
+            "Name": "ABC Apartment 2",
+            "phoneNo": "78957897",
+            "area": "Plot no 2"
+        },
+        {
+            "id": 3,
+            "Name": "ABC Apartment 3",
+            "phoneNo": "78957897",
+            "area": "Plot no 3"
+        },
+        {
+            "id": 4,
+            "Name": "ABC Apartment 4",
+            "phoneNo": "78957897",
+            "area": "Plot no 4"
+        }
+    ]
+}

@@ -1,9 +1,10 @@
 import React from 'react';
-import RoutingDemo2 from './RoutingDemo2';
+import LoginRouting from './LoginRouting';
 function App(){
   return(
 <>
-<RoutingDemo2 />
+<>Heading</>
+<LoginRouting />
 </>
   );
 }

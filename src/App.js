@@ -1,10 +1,10 @@
 import React from 'react';
-import LoginRouting from './LoginRouting';
+import Counter1 from './Counter1';
 function App(){
   return(
 <>
-<>Heading</>
-<LoginRouting />
+<>Redux</>
+<Counter1 />
 </>
   );
 }
